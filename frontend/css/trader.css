@@ -1,0 +1,27 @@
+.sidebar {
+    width: 400px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar a:hover {
+    background-color: grey;
+    color: white;
+}
+.sidebar a {
+    display: block;
+    padding: 16px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+div.content {
+    margin-left: 400px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
